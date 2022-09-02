@@ -1,0 +1,17 @@
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 10%;/*脚部的高度*/
+    background-color: #e7c0ff; /* 不支持线性的时候显示 */
+    background-image: linear-gradient(to right, #deafe6, #9198e5);
+	clear:both;
+}
+#background_image {
+	z-index: 0;
+	background-color:#a8ea9e;
+	background-image: linear-gradient(to right, #9de691, #89e5d3);
+}
+#footer_upb {
+	z-index: 10;
+}
